@@ -49,5 +49,6 @@
         "Quickbase": "Rossity\\LaravelQuickbase\\Facades\\Quickbase"
       }
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
