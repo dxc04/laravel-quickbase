@@ -31,25 +31,25 @@ class Quickbase
     }
 
     /**
-     * @param  mixed|null  $hostName
+     * @param  mixed  $hostName
      */
-    public function setHostName(?mixed $hostName): void
+    public function setHostName(mixed $hostName): void
     {
         $this->hostName = $hostName;
     }
 
     /**
-     * @param  mixed|null  $userAgent
+     * @param  mixed $userAgent
      */
-    public function setUserAgent(?mixed $userAgent): void
+    public function setUserAgent(mixed $userAgent): void
     {
         $this->userAgent = $userAgent;
     }
 
     /**
-     * @param  mixed|null  $userToken
+     * @param  mixed $userToken
      */
-    public function setUserToken(?mixed $userToken): void
+    public function setUserToken(mixed $userToken): void
     {
         $this->userToken = $userToken;
 
